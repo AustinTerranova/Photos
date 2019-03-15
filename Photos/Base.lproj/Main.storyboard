@@ -54,20 +54,22 @@
                     <toolbarItems>
                         <barButtonItem title="camera" systemItem="camera" id="rqB-yt-hrU">
                             <connections>
-                                <action selector="openCamera:" destination="B7g-xn-ztu" id="KMM-Bh-TEH"/>
+                                <action selector="openCamera:" destination="cep-H2-xgG" id="Y33-ai-eG3"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem systemItem="organize" id="OfK-AL-zZl">
                             <connections>
-                                <action selector="gallery:" destination="B7g-xn-ztu" id="QwP-Im-zgX"/>
+                                <action selector="gallery:" destination="cep-H2-xgG" id="Xxp-SG-eqY"/>
                             </connections>
                         </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="gxI-gc-nFs"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="Aps-zK-PKv" id="nu9-Uv-r7C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Hq-8E-ZgZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="B7g-xn-ztu" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="297" y="195"/>
         </scene>
